@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+   
+}
+.container{
+    display: flex;
+}
+.logo{
+    width: 140px;
+    height: 140px;
+    display: flex;
+    padding-left:80px;
+    padding-top: 12px;
+}
+
+.nav_items {
+    padding-left: 150px;
+    text-transform: uppercase;
+    padding-top: 58px;
+    word-spacing: 46px;
+    padding-left: 150px;
+}
+.nav_items a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav_items a:hover{
+color: #62ff24;
+}
+.singup{
+    padding-top: 58px;
+    padding-left: 120px;
+}
+.singup a{
+    text-decoration: none;
+    font-size: 14px;
+    padding: 12px;
+    text-transform: uppercase;
+    color: #fff;
+   
+}
+.singup a:hover
+{
+    color: #62ff24;
+}
+
+.singup button{
+    border-radius: 20px;
+    background: transparent;
+    border-color: #62ff24;
+}
+header{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("./background_image.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.text{
+    padding-top: 90px;
+}
+.text h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    background: linear-gradient(to right,#62ff24,#62ff24,#fff,#62ff24,#fff);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+            background-clip: text;
+   
+}
+.text p{
+    font-size:16px;
+    text-align: center;
+ padding: 20px;
+    text-transform: uppercase;
+    background: linear-gradient(to right,#62ff24,#62ff24,#fff,#fff,#62ff24,#fff);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+            background-clip: text;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.about{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( to bottom, #fff,#d2ffc0,#8efb63,#b9f8a1,#fff);
+}
+.about_head{
+    text-align: center;
+    color: #000000;
+text-transform: uppercase;
+font-size: 16px;
+word-spacing: 5px;
+padding: 70px;
+}
+.image_about img{
+    width: 400px;
+    height: 250px;
+    float: left;
+    padding-left: 120px;
+    border-radius: 50px 50px;
+}
+.about_info p{
+padding-top: 50px;
+font-family: 'Times New Roman', Times, serif;
+}
+.gallery{
+    width: 100%;
+    height: 160vh;
+   padding-top: 10px;
+   background: linear-gradient( to bottom,#fff,#fff,#d2ffc0,#8efb63,#8efb63,#8efb63,#8efb63,#8efb63,#8efb63,#8efb63,#9cef7b,#fff,#fff);
+}
+.gallery_head{
+    color: #000000;
+    text-transform: uppercase;
+    padding: 50px;
+}
+.gallery_head h1{
+    font-size: 25px;
+    word-spacing: 5px;
+}
+
+.gallery_image img{
+    width: 350px;
+    height: 205px;
+    border-radius: 30px;
+    margin: 5px;
+}
+.information{
+    width: 100%;
+    height: 200%;
+    padding-top: 15px;
+    background: linear-gradient( to bottom,#fff,#acf88e,#8efb63,#8efb63,#8efb63,#8efb63,#8efb63,#8efb63,#8efb63,#8efb63,#8efb63,#8efb63,#8efb63,#fff);
+}
+.information_head h1{
+    font-size: 25px;
+    color: #000000;
+    padding: 20px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+
+}
+.info_details{
+    padding: 20px;
+}
+.info_details h1{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #000000;
+}
+.info_details img{
+    align-items: center;
+    width: 450px;
+    height: 300px;
+  padding: 15px;
+  border-radius: 80px;
+}
+.information_paragraph p{
+    padding:5px;
+    text-align: center;
+    color: #000000;
+}
+
+footer {
+    background-color: #797979;
+    color: white;
+    padding: 1rem 0 2rem;
+    margin-top: 2rem;
+  }
+  
+  footer img {
+    height:140px;
+    margin: 1.2rem 0;
+ background-size: cover;
+ background-position: center center;
+    
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+
+  hr.socket {
+    width: 100%;
+    border-top: .2rem solid #666b71;
+    margin-top: 3rem;
+  }
+  
+ 
